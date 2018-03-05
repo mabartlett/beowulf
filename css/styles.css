@@ -1,0 +1,253 @@
+body {
+    background-color: #202020;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    z-index: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+.lead {
+    font-family: "EB Garamond", "Times New Roman", serif;
+}
+
+
+/* Header */
+header {
+    text-align: center;
+    font-variant: small-caps;
+    text-shadow: 4px 4px 4px #303030;
+    background-color: #303030;
+    background-image: url("../images/mask.jpg");
+    background-position: center 57%;
+    background-repeat: no-repeat;
+}
+
+header a,
+header a:active,
+header a:hover,
+header a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* Nav */
+nav {
+    background-color: #4a4a4a;
+    text-align: center;
+}
+
+nav .navbar-toggler-icon {
+    color: #ffffff;
+    font-size: 2rem;
+    height: 100%;
+}
+
+nav li {
+    background-color: #5a5a5a;
+    border: 1px solid #4a4a4a;
+    margin: 1px 0;
+    font-size: 1.25rem;
+    transition: all 0.1s linear;
+}
+
+nav .active {
+    background-color: #797979;
+}
+
+nav a,
+nav a:focus,
+nav a:active {
+    color: #ffffff;
+    transition: all 0.2s linear;
+}
+
+nav li:hover,
+nav a:hover {
+    color: #000000;
+    background-color: #a0a0a0;
+}
+
+
+/* Main */
+main {
+    display: block;
+    background-color: #303030;
+    z-index: 0;
+}
+
+main h1 {
+    border-bottom: 1px solid #ffffff;
+}
+
+main figure {
+    padding: 15px 15px;
+    background-color: #4a4a4a;
+    z-index: 9;
+    box-shadow: 3px 3px 3px #202020;
+}
+
+main .figure-img {
+    border: 1px solid #909090;
+    border-radius: 3px 3px 0 0;
+    margin-bottom: -1px;
+}
+
+main figure .figure-caption {
+    color: #ffffff;
+    text-align: center;
+    padding: 0.5em 0;
+    border: 1px solid #909090;
+    border-radius: 0 0 3px 3px;
+}
+
+main article {
+    z-index: 8;
+}
+
+main .first-letter::first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.text-gray {
+    color: #c0c0c0 !important;
+}
+
+
+/* Footer */
+footer {
+    padding: 0 0.25rem;
+    background-color: #4a4a4a;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: all 0.1s linear;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+    color: #dadada;
+    text-shadow: 2px 2px 2px #202020;
+}
+
+
+/******** Below are the styles for specific pages. ********/
+
+
+/* Characters */
+.card {
+    background-color: #4a4a4a;
+    box-shadow: 3px 3px 3px #202020;
+    transition: all 0.1s linear;
+}
+
+.card:hover {
+    transform: scale(1.025);
+    background-color: #464646;
+    color: #fcfcfc;
+    box-shadow: 5px 5px 5px #202020;
+}
+
+
+/* Setting */
+#settingCol1 {
+    border-right: 1px solid #4a4a4a;
+}
+
+/* The following media query removes the right border on smaller devices */
+@media screen and (max-width: 991px) {
+    #settingCol1 {
+        border-right: 0px;
+    }
+}
+
+.carousel {
+    max-width: 534px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #202020;
+    width: 2rem;
+    height: 24%;
+    top: 38%;
+    transition: all 0.05s linear;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    transform: scaleY(1.2);
+}
+
+.blockquote {
+    background-color: #4a4a4a;
+    position: relative;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-shadow: 3px 3px 3px #202020;
+    font-size: 1rem;
+}
+
+.blockquote p::before {
+    content: open-quote;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.blockquote p::after {
+    content: close-quote;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+
+/* Contact */
+.list-group-item {
+    background-color: #4a4a4a;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.list-group-item a {
+    padding: 15px;
+    z-index: 9;
+    box-shadow: 3px 3px 3px #202020;
+}
+
+.list-group-item,
+.list-group-item a,
+.list-group-item a:active,
+.list-group-item a:focus{
+    color: #ffffff;
+    transition: all 0.15s linear;
+}
+
+.list-group-item a:hover {
+    color: #000000;
+    background-color: #a0a0a0;
+    z-index: 10;
+}
+
+.btn {
+    background-color: #5a5a5a;
+    border-color: #4a4a4a;
+}
+
+.btn:hover {
+    background-color: #a0a0a0;
+}
+
+.btn:focus {
+    background-color: #6a6a6a;
+}

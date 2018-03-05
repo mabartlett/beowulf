@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Website created by Marcus Bartlett for Ingrid Smith's Bootstrap class.-->
+<head>
+    <!-- Meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+	<link rel="icon" href="favicon.ico">
+    
+    <title>Beowulf | Contact</title>
+    
+    <!-- Bootstrap CSS then styles.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Garamond font -->
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+	<header class="container py-2 py-xl-3">
+        <a href="index.html" title="Beowulf">
+            <h1 class="display-3 my-0 hidden-sm-up">Beowulf</h1>
+            <h1 class="display-1 hidden-xs-down my-0">Beowulf</h1>
+        </a>
+	</header>
+    
+    
+    <!-- Nav -->
+    <nav class="navbar navbar-toggleable p-0 container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="#navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav w-100">
+                <li class="nav-item w-100"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item w-100"><a href="characters.html" class="nav-link">Characters</a></li>
+                <li class="nav-item w-100"><a href="setting.html" class="nav-link">Setting</a></li>
+                <li class="nav-item w-100 active"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <!-- Main -->
+	<main class="container py-1 py-lg-2 py-xl-3">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="pb-2 mb-3">Contact Us</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <p class="lead">Looking for more information? Send me an e-mail!</p>
+                <form id="contactForm" method="post" class="container">
+                        <div class="row form-group">
+                            <label for="name" class="col-3 col-lg-2 col-form-label">Name:</label>
+                            <input type="text" name="name" id="name" maxlength="25" class="form-control col-9 col-lg-10">
+                        </div>
+
+                        <div class="row form-group">
+                            <label for="email" class="col-3 col-lg-2 col-form-label">Email:</label>
+                            <input type="email" name="email" id="email" maxlength="25" class="form-control col-9 col-lg-10">
+                        </div>
+
+                        <div class="row form-group">
+                            <textarea name="comment" rows="3" maxlength="5000" class="form-control col-12" placeholder="Type your comment/question here." required="required"></textarea>
+                        </div>
+
+                        <div class="row form-group">
+                            <input type="submit" name="submit" id="submit" class="col-12 btn btn-primary" value="Submit">
+                        </div>
+                </form>
+            </div>
+		
+            <!--Other Links-->
+            <section class="col-md-6 mb-2">
+                <h2>Other Links</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><a href="https://en.wikipedia.org/wiki/Portal:Anglo-Saxon_England" target="_blank" class="w-100">Anglo-Saxon England Portal on Wikipedia</a></li>
+                    <li class="list-group-item"><a href="https://www.amazon.com/Beowulf-New-Verse-Translation-Bilingual/dp/0393320979/ref=sr_1_1?ie=UTF8&qid=1495737327&sr=8-1&keywords=beowulf" target="_blank" class="w-100">Buy the book on Amazon</a></li>
+                    <li class="list-group-item"><a href="https://www.gutenberg.org/ebooks/50742" target="_blank" class="w-100">Beowulf on Project Gutenberg</a></li>
+                    <li class="list-group-item"><a href="https://www.youtube.com/watch?v=PzmmPRG4smU" target="_blank" class="w-100">Hear part of the poem read in Old English</a></li>
+                </ul>
+            </section>
+		</div>
+	</main>
+    
+
+    <!-- Footer -->
+    <footer class="py-2 container text-center text-md-left">
+        <div class="row">
+            <div class="col-md-4">
+                Website by <a href="#">Marcus Bartlett</a>
+            </div>
+
+            <div class="col-md-4 my-0">
+                <hr class="hidden-md-up my-2">
+                <strong class="hidden-md-down">Email: </strong><a href="mailto: mbartlett@bates.ctc.edu">mbartlett@bates.ctc.edu</a>
+                <hr class="hidden-md-up my-2">
+            </div>
+
+            <div class="col-md-4">
+                <strong class="hidden-md-down">Phone: </strong><a href="tel: 12535760751">(253)576-0751</a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
