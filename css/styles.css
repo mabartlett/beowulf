@@ -121,6 +121,12 @@ main .first-letter::first-letter {
     color: #c0c0c0 !important;
 }
 
+.text-license {
+    color: #e0e0e0 !important;
+	font-size: 0.75em;
+	text-decoration: underline;
+}
+
 
 /* Footer */
 footer {
